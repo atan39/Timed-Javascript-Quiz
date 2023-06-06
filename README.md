@@ -17,3 +17,5 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
+
+![image](https://github.com/atan39/Timed-Javascript-Quiz/assets/126987766/ce29f06f-71fc-4e71-b5c6-2f0da91f2442)
