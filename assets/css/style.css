@@ -1,10 +1,58 @@
-
-:root {
-    --pink: #FF69B4
-    --lightblue: #87CEFA
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "cursive", sans-serif;
+    box-sizing: border-box;
 }
 
-body {
-    font-family: 'cursive', sans-serif;
+body{
+    background: #FFF0F5;
+}
 
+.container{
+    background: #FFB6C1;
+    width: 90%;
+    max-width: 700px;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.container h1 {
+    font-weight: 20px;
+    color: white;
+    font-weight: 400;
+    border-bottom: 1;
+}
+
+.container h2 {
+   color: white;
+   font-weight: 400;
+   font-size: 20px;
+}
+
+.btn {
+    text-align: left;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    color: #FA8072;
+}
+
+.btn:hover {
+    background: #DB7093;
+}
+
+#next-btn{
+    display: none;
+}
+
+#timer {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-weight: bolder;
 }

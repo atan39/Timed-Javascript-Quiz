@@ -8,30 +8,29 @@
     <title>Javascript Code Timed Quiz</title>
 </head>
 <body>
-    <h1>JavaScript Quiz</h1>
-    <p id="timer"></p>
-    <p>Answer the questions before the time is up!<br>
-       Anwsering a question wrong will reduce the time you have remaining. </p>
+
+
+    <!-- put the questions in a box -->
     <div class="container">
-        <div id="question-container" class="hide">
-            <div id="question">Questions
-            <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
-            </div>
-            </div>
+        <h1>JavaScript Quiz</h1>
+        <p>Answer the questions before the time is up!<br>
+       Answering a question wrong will reduce the time you have remaining. </p>
+         <!-- make a timer -->
+       <p id="timer">60 seconds remaining</p>
+        <h2 id="jsQuestion">Questions</h2>
+        <div id="answer-btn">
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+        </div>
+        <button id="next-btn">Next</button>
         </div>
         <div class="controls">
             <button id="start-btn" class="start-btn btn">Start</button>
         </div>
-    </div>
     <div class="score">
-                
-    </div>
 
-</body>
 <script src="./assets/js/script.js"></script>
-
+</body>
 </html>
